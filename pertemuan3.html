@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tag</title>
+<style>
+.nama{
+    display: flex;
+    gap: 20px;
+}
+
+.alamat-dan-tanggal{
+    display: flex;
+    gap: 20px;
+}
+
+.username{
+    display: flex;
+    gap: 20px;
+}
+
+</style>
+</head>
+<body>
+   <form>
+    <div class="username">
+        <div>
+        <label for="username">Username:</label><br>
+        <input type="text" name="username" id="Username">
+        </div>
+        <div>
+        <label for="Password">Password:</label><br>
+        <input type="password" name="Password" id="Password">
+        </div>
+    </div>
+    <br>    
+<div class="nama">
+    <div class="nama-depan">
+    <label for="nama-depan">Nama Depan:</label><br>
+    <input type="text" name="nama-depan" id="nama-depan">
+    </div>
+
+    <div class="nama-belakang">
+    <label for="nama-belakang">Nama Belakang:</label><br>
+    <input type="text" name="nama-belakang" id="nama-belakang">
+    </div>
+</div>    
+    <br>
+
+<div class="alamat-dan-tanggal">
+    <div class="alamat">
+    <label for="Alamat">Alamat:</label><br>
+    <input type="text" name="Alamat" id="Alamat">
+    </div>
+    <div class="Tanggal-lahir">
+    <label for="tanggal-lahir">Tanggal Lahir:</label><br>
+    <input type="date" name="Tanggal-lahir" id="Tanggal-lahir">
+    </div>
+</div>
+    <br>
+
+    <div class="jenis-kelamin">
+    <label for="Jenis-Kelamin">Jenis Kelamin:</label><br>
+    <input type="text" name="Jenis-Kelamin" id="Jenis-Kelamin">
+    </div>
+
+    <div class="file " style="margin-top: 20px;">
+        <label for="File">Upload Image:</label><br>
+        <input type="file" name="file" >
+    </div>
+        
+
+    <div style="margin-top: 20px;"> 
+        <input type="submit">
+    </div>
+    
+
+   </form>
+</body>
+</html>
